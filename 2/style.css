@@ -1,0 +1,18 @@
+p#id-one {
+	text-align: left;
+    border-left: 4px dashed BlueViolet;
+}
+ol {
+	text-align: left;
+    font-size: 1.2em;
+    color: DarkGreen;
+}
+a {
+    color: DarkGreen;
+}
+a:hover {
+    text-decoration: none;
+}
+footer {
+	border-bottom: dashed;
+}

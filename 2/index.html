@@ -4,16 +4,32 @@
 		<meta charset="utf-8">
 		<title>Домашнее задание 2</title>
 		<link rel="stylesheet" href="style.css">
+		<style>
+			#zagolovok{color:Crimson;} /*список внешних стилей*/
+			span {
+				color:DarkBlue; text-decoration:underline; text-align:center;
+			}
+			article {
+				text-align:center;
+			}
+			img {
+      			width: 300px;
+      			border: 4px double #f0f;
+   			}
+   			figcaption {
+   				font-size: 1.2em;
+   			}
+		</style>
 	</head>
 	<body>
 		<article>
-			<h1><strong>This page such wow</strong></h1>
-			<p>such page very wow so doge</p>
+			<h1 id="zagolovok" style="color: Crimson">This page such wow</h1> <!--атрибут style - внутренний css-->
+			<p><span>such page</span> <span>very wow</span> <span>so doge</span></p>
 			<figure> 
 				<figcaption>so doge</figcaption> 
 				<img src="doge.jpeg" alt="So doge"> 
 			</figure>
-			<p><strong>Doge</strong> is an Internet meme that became popular in 2013. The meme typically consists of a picture of a Shiba Inu accompanied by multicolored text in Comic Sans font in the foreground. The text, representing a kind of internal monologue, is deliberately written in a form of broken English.</p> <!--чтоб выделить слово жирным, надо выделить слово и нажать alt+shift+W-->
+			<p id="id-one"><strong>Doge</strong> is an Internet meme that became popular in 2013. The meme typically consists of a picture of a Shiba Inu accompanied by multicolored text in Comic Sans font in the foreground. The text, representing a kind of internal monologue, is deliberately written in a form of broken English.</p> <!--чтоб выделить слово жирным, надо выделить слово и нажать alt+shift+W-->
 			<ol> <!--тег списка-->
 				<li><a href="https://en.wikipedia.org/wiki/Doge_(meme)">Doge on Wiki.</a></li> <!--можно вставить все пункты списка, выделить их при помощи ctrl и нажать alt+shift+W и меняем теги на нужный, а остальные меняются автоматически-->
 				<li><a href="http://lurkmore.to/Doge">Doge on Lurk.</a></li>
